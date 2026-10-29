@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Nation</title>
+</head>
+<body style="margin: 0; background-color: #f5f2ef; color: #292524; font-family: Arial, sans-serif; line-height: 1.6;">
+    <header style="padding: 24px; background-color: #e8dfda; text-align: center;">
+        <h1 style="margin: 0; color: #713d36;">Rock Nation</h1>
+        <p style="margin: 4px 0 0;">Tu espacio dedicado a la música rock.</p>
+    </header>
+
+    <nav aria-label="Menú de navegación" style="padding: 16px; background-color: #713d36; text-align: center;">
+        <a href="#inicio" style="display: inline-block; margin: 4px 8px; padding: 7px 12px; color: #fff; text-decoration: none; background-color: #83534b; border-radius: 5px;">Inicio</a>
+        <a href="--#nosotros" style="display: inline-block; margin: 4px 8px; padding: 7px 12px; color: #fff; text-decoration: none; background-color: #83534b; border-radius: 5px;">Sobre nosotros</a>
+        <a href="#bandas" style="display: inline-block; margin: 4px 8px; padding: 7px 12px; color: #fff; text-decoration: none; background-color: #83534b; border-radius: 5px;">Bandas y álbumes</a>
+        <a href="#contacto" style="display: inline-block; margin: 4px 8px; padding: 7px 12px; color: #fff; text-decoration: none; background-color: #83534b; border-radius: 5px;">Contacto</a>
+        <a href="#login" style="display: inline-block; margin: 4px 8px; padding: 7px 12px; color: #fff; text-decoration: none; background-color: #83534b; border-radius: 5px;">Acceso</a>
+        <a href="#sitios" style="display: inline-block; margin: 4px 8px; padding: 7px 12px; color: #fff; text-decoration: none; background-color: #83534b; border-radius: 5px;">Sitios de interés</a>
+    </nav>
+
+    <main style="max-width: 900px; margin: 0 auto; padding: 20px;">
+        <section id="inicio" style="margin-bottom: 28px;">
+            <h2 style="color: #713d36;">Inicio</h2>
+            <p>Descubre algunas bandas importantes y la evolución de la música rock.</p>
+        </section>
+
+        <section id="nosotros" style="margin-bottom: 28px; padding: 18px; background-color: #eee7e2; border-radius: 8px;">
+            <h2 style="margin-top: 0; color: #713d36;">Sobre nosotros</h2>
+            <p style="margin-bottom: 0;">Rock Nation es una página creada para compartir información sobre bandas, álbumes y subgéneros del rock.</p>
+        </section>
+
+        <section id="bandas" style="margin-bottom: 28px;">
+            <h2 style="color: #713d36;">Bandas y álbumes</h2>
+            <p>Conoce algunas bandas importantes de la historia del rock.</p>
+
+            <h3>Queen</h3>
+            <img src="https://static.wikia.nocookie.net/queen/images/c/c6/2775afb41ca146300103ce245de04c12.jpg/revision/latest?cb=20180708184856&path-prefix=es" alt="Queen, banda británica de rock" style="display: block; width: min(100%, 500px); height: auto; border-radius: 8px;">
+
+            <h3 style="margin-top: 24px;">Datos de las bandas</h3>
+            <table style="width: 100%; border-collapse: collapse; background-color: #fff;">
+                <thead>
+                    <tr style="background-color: #e8dfda;">
+                        <th scope="col" style="padding: 10px; border: 1px solid #d5ccc7; text-align: left;">Banda</th>
+                        <th scope="col" style="padding: 10px; border: 1px solid #d5ccc7; text-align: left;">País</th>
+                        <th scope="col" style="padding: 10px; border: 1px solid #d5ccc7; text-align: left;">Año de formación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #d5ccc7;">Queen</td>
+                        <td style="padding: 10px; border: 1px solid #d5ccc7;">Reino Unido</td>
+                        <td style="padding: 10px; border: 1px solid #d5ccc7;">1970</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #d5ccc7;">Nirvana</td>
+                        <td style="padding: 10px; border: 1px solid #d5ccc7;">Estados Unidos</td>
+                        <td style="padding: 10px; border: 1px solid #d5ccc7;">1987</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #d5ccc7;">Radiohead</td>
+                        <td style="padding: 10px; border: 1px solid #d5ccc7;">Reino Unido</td>
+                        <td style="padding: 10px; border: 1px solid #d5ccc7;">1985</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 style="margin-top: 24px;">Subgéneros del rock</h3>
+            <ul>
+                <li>Rock alternativo</li>
+                <li>Rock progresivo</li>
+                <li>Grunge</li>
+                <li>Punk rock</li>
+                <li>Hard rock</li>
+            </ul>
+        </section>
+
+        <section id="contacto" style="margin-bottom: 28px; padding: 18px; background-color: #eee7e2; border-radius: 8px;">
+            <h2 style="margin-top: 0; color: #713d36;">Contáctanos</h2>
+            <p>Envíanos tus comentarios y dinos cuál es tu banda favorita.</p>
+            <form action="#" method="get">
+                <p>
+                    <label for="nombre">Nombre:</label><br>
+                    <input id="nombre" type="text" name="nombre" autocomplete="name" required style="width: min(100%, 360px); padding: 9px; border: 1px solid #c9bfb9; border-radius: 5px;">
+                </p>
+                <p>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input id="correo" type="email" name="correo" autocomplete="email" required style="width: min(100%, 360px); padding: 9px; border: 1px solid #c9bfb9; border-radius: 5px;">
+                </p>
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" required style="width: min(100%, 360px); min-height: 90px; padding: 9px; border: 1px solid #c9bfb9; border-radius: 5px; font: inherit;"></textarea>
+                </p>
+                <button type="submit" style="padding: 9px 16px; border: 0; border-radius: 5px; background-color: #713d36; color: white; cursor: pointer;">Enviar mensaje</button>
+            </form>
+        </section>
+
+        <section id="login" style="max-width: 440px; margin: 0 auto 28px; padding: 20px; background-color: #eee7e2; border: 1px solid #ddd2cc; border-radius: 8px;">
+            <h2 style="margin-top: 0; color: #713d36;">Acceso</h2>
+            <p>Ingresa tus datos para acceder.</p>
+            <form action="#" method="post">
+                <p>
+                    <label for="usuario">Usuario:</label><br>
+                    <input id="usuario" type="text" name="usuario" autocomplete="username" required style="width: 100%; box-sizing: border-box; padding: 10px; border: 1px solid #c9bfb9; border-radius: 5px;">
+                </p>
+                <p>
+                    <label for="contrasena">Contraseña:</label><br>
+                    <input id="contrasena" type="password" name="contrasena" autocomplete="current-password" required style="width: 100%; box-sizing: border-box; padding: 10px; border: 1px solid #c9bfb9; border-radius: 5px;">
+                </p>
+                <button type="submit" style="padding: 9px 16px; border: 0; border-radius: 5px; background-color: #713d36; color: white; cursor: pointer;">Ingresar</button>
+            </form>
+        </section>
+
+        <section id="sitios" style="margin-bottom: 28px;">
+            <h2 style="color: #713d36;">Sitios de interés</h2>
+            <ul>
+                <li><a href="https://www.rockhall.com" target="_blank" rel="noopener noreferrer">Rock &amp; Roll Hall of Fame</a></li>
+                <li><a href="https://www.youtube.com/watch?v=8SbUC-UaAxE&amp;list=PL3485902CC4FB6C67" target="_blank" rel="noopener noreferrer">Rock de los 80 y 90 en YouTube</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="padding: 16px; background-color: #e8dfda; text-align: center;">
+        <p style="margin: 0;">Rock Nation · Hecho para quienes sienten la música.</p>
+    </footer>
+</body>
+</html>
